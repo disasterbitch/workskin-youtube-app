@@ -1,0 +1,311 @@
+#workskin .youtube {
+    width: 25em;
+    color: rgb(30, 30, 30);
+    font-family: "Google Sans",Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    margin: auto;
+    max-height: 54em;
+    overflow: scroll;
+}
+
+#workskin .youtube::-webkit-scrollbar {
+    display: none;
+}
+
+#workskin .youtube div,
+#workskin .youtube p {
+  margin: 0em;
+  padding: 0em;
+  display: inline;
+}
+
+#workskin .youtube .video,
+#workskin .youtube .video .overlay,
+#workskin .youtube .videoMeta,
+#workskin .youtube .channel,
+#workskin .youtube .comments,
+#workskin .youtube .comment,
+#workskin .youtube .suggestions,
+#workskin .youtube .suggestion,
+#workskin .youtube .suggestion .channel {
+    display: block;
+}
+
+#workskin .youtube .thumbnail img {
+    width: 100%;
+}
+
+#workskin .youtube .video .top {
+    margin-top: -14em;
+    padding: 0.5em
+}
+
+#workskin .youtube .right {
+    float: right;
+    position: relative;
+}
+
+#workskin .youtube .video .top img {
+    height: 1.5em;
+}
+
+#workskin .youtube .video .top .right img {
+    padding-left: 1.2em;
+}
+
+#workskin .youtube .video .middle {
+    margin-left: 7.25em;
+    margin-top: 3em;
+}
+
+#workskin .youtube .video .middle p {
+    border-radius: 100%;
+    background-color: rgb(129, 129, 129, 0.7);
+    padding: 0.5em 0.6em 0.7em 0.6em;
+    margin-right: 1em;
+}
+
+#workskin .youtube .video .middle .play {
+    padding: 1em 0.5em 1em 1em;
+}
+
+#workskin .youtube .video .middle img {
+    height: 1em;
+    vertical-align: middle;
+}
+
+#workskin .youtube .video .middle .play img {
+    height: 2em;
+}
+
+#workskin .youtube .video .bottom {
+    margin-top: 4.3em;
+    margin-bottom: 0.7em;
+}
+
+#workskin .youtube .video .bottom img {
+    height: 0.9em;
+}
+
+#workskin .youtube .video .bottom .right .expand {
+    border-radius: 100%;
+    background-color: rgb(129, 129, 129, 0.7);
+    padding: 0.5em 0.5em 0.3em 0.5em;
+    margin-right: 0.3em;
+}
+
+#workskin .youtube .video .bottom .left .timestamp {
+    border-radius: 5em;
+    background-color: rgb(129, 129, 129, 0.7);
+    padding: 0.3em;
+    color: rgb(247, 247, 247);
+    font-size: 0.8em;
+    margin-left: 0.3em;
+}
+
+#workskin .youtube .video .progress {
+    display: block;
+    position: relative;
+    margin-top: 0.5em;
+}
+
+#workskin .youtube .video .progress .watched {
+    display: block;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: rgb(252, 20, 56);
+    position: relative;
+}
+
+#workskin .youtube .video .progress .not {
+    display: block;
+    border-style: solid;
+    border-width: 0.15em;
+    border-color: rgb(195, 195, 193);
+    position: relative;
+    margin-top: -0.25em;
+    width: auto;
+}
+
+#workskin .youtube .video .progress .dot img {
+    height: 0.8em;
+}
+
+#workskin .youtube .video .progress .dot {
+    margin-top: -0.65em;
+    display: block;
+    position: relative;
+}
+
+#workskin .youtube .video .progress.half .watched {
+    width: 50%;
+}
+
+#workskin .youtube .video .progress.half .not,
+#workskin .youtube .video .progress.half .dot {
+    margin-left: 50%;
+}
+
+#workskin .youtube .video .progress.third .watched {
+    width: 33%;
+}
+
+#workskin .youtube .video .progress.third .not,
+#workskin .youtube .video .progress.third .dot {
+    margin-left: 33%;
+}
+
+#workskin .youtube .content {
+    display: block;
+    background-color: white;
+    border-radius: 1em 1em 0em 0em;
+    padding: 0.5em;
+    margin-top: -0.9em;
+}
+
+#workskin .youtube .videoMeta .title {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    padding-bottom: 0.5em;
+}
+
+#workskin .youtube .videoMeta .channelName,
+#workskin .youtube .videoMeta .likes,
+#workskin .youtube .videoMeta .views,
+#workskin .youtube .videoMeta .timestamp,
+#workskin .youtube .videoMeta .more {
+    color: rgb(95, 95, 95);
+    font-size: 0.8em;
+    padding-right: 0.5em;
+    vertical-align: top;
+}
+
+#workskin .youtube .videoMeta .channelName,
+#workskin .youtube .videoMeta .more {
+    font-weight: bold;
+}
+
+#workskin .youtube .channel {
+    margin-top: 0.5em;
+}
+
+#workskin .youtube .channel img {
+    vertical-align: middle;
+    height: 1.5em;
+}
+
+#workskin .youtube .channel .channelIcon img {
+    height: 2em;
+    border-radius: 100%;
+}
+
+#workskin .youtube .channel .subscribed {
+    background-color: rgb(242, 242, 242);
+    padding: 0.4em 0.7em;
+    border-radius: 3em;
+    margin-left: 0.3em;
+}
+
+#workskin .youtube .channel .dislike,
+#workskin .youtube .channel .share,
+#workskin .youtube .channel .bookmark,
+#workskin .youtube .channel .more {
+    margin-left: 1em;
+}
+
+#workskin .youtube .channel .subscribed img {
+    height: 1em;
+}
+
+#workskin .youtube .comments {
+    background-color: rgb(242, 242, 242);
+    border-radius: 0.7em;
+    padding: 1em;
+    font-size: 0.8em;
+    margin-top: 1em;
+}
+
+#workskin .youtube .comments .title {
+    font-weight: bold;
+}
+
+#workskin .youtube .comments .count {
+    font-size: 0.8em;
+    margin-left: 0.3em;
+    color: rgb(95, 95, 95);
+}
+
+#workskin .youtube .comments .comment {
+    padding-top: 1em;
+}
+
+#workskin .youtube .comments .comment .icon {
+    float: left;
+    margin-right: 0.7em;
+}
+
+#workskin .youtube .comments .comment .icon img {
+    height: 1.2em;
+    border-radius : 100%;
+}
+
+#workskin .youtube .comments .comment .text {
+    display: block;
+    margin-top: -0.4em;
+}
+
+#workskin .youtube .suggestions {
+    margin-top: 1em;
+}
+
+#workskin .youtube .suggestions .suggestion {
+    margin-bottom: 1em;
+}
+
+#workskin .youtube .suggestions .suggestion .videoTimestamp {
+    float: right;
+    font-size: 0.75em;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0.2em 0.3em 0.2em 0.3em;
+    border-radius: 1em;
+    margin-top: -2.2em;
+    margin-right: 0.5em;
+    position: relative;
+}
+
+#workskin .youtube .suggestions .suggestion .thumbnail.watched img {
+    border-color: rgb(252, 20, 56);
+    border-bottom-style: solid;
+}
+
+#workskin .youtube .suggestions .suggestion .channelIcon {
+    float: left;
+    margin-right: 0.5em;
+}
+
+#workskin .youtube .suggestions .suggestion .more {
+    float: right;
+    height: 0.8em;
+    margin-top: -0.2em;
+}
+
+#workskin .youtube .suggestions .suggestion .title {
+    font-size: 0.9em;
+}
+
+#workskin .youtube .suggestions .suggestion .channelMeta {
+    display: block;
+    font-size: 0.7em;
+    color: rgb(88, 88, 88);
+    margin-top: 0.3em;
+}
+
+#workskin .youtube .suggestions .suggestion .channelMeta p {
+    padding-right: 0.5em;
+}
+
+#workskin .youtube .suggestions .suggestion .channelMeta img {
+    height: 0.7em;
+    margin-top: -0.2em;
+}
